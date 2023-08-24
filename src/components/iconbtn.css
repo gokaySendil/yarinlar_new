@@ -1,0 +1,23 @@
+.button-icon{
+    color: #25D366;
+}
+.iconed-button{
+display: flex;
+width: 140px;
+height: 40px;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 5px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #25D366;
+color: #25D366;
+background-color: transparent;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.45px;
+}
