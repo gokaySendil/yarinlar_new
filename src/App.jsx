@@ -3,6 +3,7 @@ import Hero from "./sections/Hero/Hero"
 import "./App.css"
 import Banner from "./sections/Banner/Banner"
 import About from "./sections/About/About"
+import Services from "./sections/Services/Services"
 function App() {
   return (
     <div className="app">
@@ -10,6 +11,7 @@ function App() {
       <Hero/>
       <Banner/>
       <About/>
+      <Services/>
       </div>
     
   )

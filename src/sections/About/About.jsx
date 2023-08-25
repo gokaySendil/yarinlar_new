@@ -17,12 +17,12 @@ const About = () => {
           hayatlarını ve varlıklarını korumalarına destek oluyoruz</p>
         </div>
         <div className='col-12 col-md-6  container about-img-col'>
-          <img src={About1} alt='Neden Yarınlar Sigorta 1'/>
+          <img className='img-fluid' src={About1} alt='Neden Yarınlar Sigorta 1'/>
         </div>
       </div>
       <div className='row w-100 d-flex  justify-content-center align-items-center'>
       <div className='col-12 col-md-6  container about-img-col-2'>
-          <img src={About2} alt='Neden Yarınlar Sigorta 1'/>
+          <img className='img-fluid' src={About2} alt='Neden Yarınlar Sigorta 1'/>
         </div>
         <div className='col-12 col-md-6 container about-text'>
           <h2 className='about-sub'>Geniş Ürün Yelpazesi</h2>
