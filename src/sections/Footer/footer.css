@@ -1,0 +1,83 @@
+footer {
+  background-color: #0d1055;
+}
+footer h5 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+footer span {
+  width: 302px;
+  color: #878787;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+footer  .footer-link{
+  color: #878787;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.ctext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.iletisim {
+  display: flex;
+  gap: 15px;
+}
+.iletisim-p{
+    color: #878787;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+@media (min-width: 768px) and (max-width: 992) {
+  .iletisim .svg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+  }
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: -40px;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.iletisim-p {
+  margin: 0;
+  padding: 0;
+}
+.outline {
+  outline: 1px solid white;
+}
+.developers{
+    color: #878787;
+font-family: Poppins;
+font-size: 16px !important;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+}
