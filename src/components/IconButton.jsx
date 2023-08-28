@@ -4,7 +4,7 @@ import "./iconbtn.css";
 const IconButton = (props) => {
   return (
     
-    <button className='iconed-button'><i class="fa-2xl fa-brands fa-whatsapp button-icon"></i>Whatsapp</button>
+    <a href="https://wa.me/9005548015822" className='iconed-button' target='blank'><i class="fa-2xl fa-brands fa-whatsapp button-icon"></i>Whatsapp</a>
     
   )
 }

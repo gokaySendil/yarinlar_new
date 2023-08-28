@@ -1,9 +1,11 @@
 import React from 'react'
 import "./service.css"
 import Trafik from "../assets/services/trafik.png"
-const Service = ({title,subs,image}) => {
+import { fadeIn, staggerContainer, slideIn } from '../motion';
+import {motion} from "framer-motion";
+const Service = ({title,subs,image,index}) => {
   return (
-    <div className='single-service'>
+    <motion.div variants={fadeIn("left", "spring", index * 0.25, 0.75)} viewport={{ once: true, amount: 0.25 }} className='single-service'>
         <div className='d-flex'>
             <div className='img-div'>
                 <img className='img-fluid' src={image} alt='Sigorta Hizmeti temsili fotograf'/>
@@ -14,16 +16,15 @@ const Service = ({title,subs,image}) => {
                {
                 subs.map((element) => {
                  return(
-                  <p className='sub-service'>{element}</p>
+                  <p key={element} className='sub-service'>{element}</p>
                  )
                 })
                }
-                
               </div>
                 
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

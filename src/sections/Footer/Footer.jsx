@@ -4,7 +4,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className=" text-white pt-5 pb-4">
+    <footer id="iletisim" className=" text-white pt-5 pb-4">
       <div className="container text-md-left ">
         <div className="row text-md-left ">
           <div className="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
@@ -13,10 +13,9 @@ const Footer = () => {
             </h5>
             <hr className=""></hr>
             <span className="row-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            Yarınlar Sigorta 2006 yılında kurulmuş olup günümüzde de farklı türde sigorta 
+            hizmetlerini tecrübeli kadrosu ile 
+            müşterilerine hızlı ve en doğru seçeneklerle ulaştırmaya devam etmektedir.
             </span>
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 mt-3  mx-auto text-md-center">

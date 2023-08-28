@@ -1,4 +1,15 @@
-.my-primary-btn{
+.form-title{
+color: #0D1055;;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.45px;
+text-decoration: none;
+cursor: pointer;
+}
+.modal-btn{
 display: flex;
 width: 140px;
 height: 40px;
@@ -18,9 +29,4 @@ line-height: normal;
 letter-spacing: 0.45px;
 text-decoration: none;
 cursor: pointer;
-}
-.my-primary-btn:hover{
-    background: #fff;
-    border: 1px dashed #0D1055;
-    color:#0D1055;
 }

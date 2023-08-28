@@ -19,3 +19,8 @@ line-height: normal;
 letter-spacing: 0.45px;
 text-transform: uppercase;
 }
+.inverted-btn:hover{
+    border:1px dashed #fff;
+    background-color: transparent;
+    color: #fff;
+}

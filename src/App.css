@@ -1,3 +1,32 @@
 .app{
     margin-top: 50px;
 }
+.social-button-div-global{
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 20px;
+    z-index: +99999;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.social-button-div-global li a{
+    text-align: center;
+    display: inline-block;
+    border-color: #453ae1;
+    border:1px solid;
+    color: #002e5b;
+    width: 48px;
+    font-size: 25px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 3px;
+}
+.social-button-div-global .wp-button{
+    background-color:#25d366;
+    color: white;
+}

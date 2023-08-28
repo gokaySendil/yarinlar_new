@@ -22,7 +22,13 @@ letter-spacing: 1.5px;
     
 }
 .text-container{
+    display: flex;
+    align-items: center;
     gap: 15px;
+}
+.text-container h1{
+    
+    margin-left: 200px;
 }
 .hero-p{
     color: #0D1055;
@@ -36,6 +42,10 @@ line-height: normal;
     height: 700px;
 }
 @media screen and (max-width:890px) {
+    .text-container h1{
+        
+        margin-left: 0px;
+    }
     .hero-heading{
     margin-top: 50px;
     width: 100%;
@@ -48,6 +58,15 @@ line-height: normal;
     gap: 20px;
 }
 @media screen and (max-width: 768px) {
+    .text-container h1{
+        
+        margin-left: 0px;
+    }
+    .hero-heading{
+        font-size: 35px;
+        width: 100%;
+        line-height: 56px;
+    }
     .col-heights{
         height: auto;
         text-align: center;

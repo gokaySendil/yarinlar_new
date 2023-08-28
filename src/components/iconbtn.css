@@ -20,4 +20,12 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 letter-spacing: 0.45px;
+text-decoration: none;
+cursor: pointer;
+}
+.iconed-button:hover{
+    border: 1px dashed #25D366;
+}
+.iconed-button a:hover{
+    color:  #0D1055;
 }
