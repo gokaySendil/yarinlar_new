@@ -29,7 +29,7 @@ const Footer = () => {
                 className="footer-link"
                 style={{ textDecoration: "none" }}
               >
-                HAKKIMIZDA
+                Hakkımızda
               </a>
             </p>
             <p>
@@ -38,7 +38,7 @@ const Footer = () => {
                 className="footer-link"
                 style={{ textDecoration: "none" }}
               >
-                HİZMETLERİMİZ
+                Hizmetlerimiz
               </a>
             </p>
             <p>
@@ -46,8 +46,9 @@ const Footer = () => {
                 href="#fiyatal"
                 className="footer-link"
                 style={{ textDecoration: "none" }}
+                data-bs-toggle="modal" data-bs-target="#staticBackdrop" 
               >
-                FİYAT AL
+                Teklif Al
               </a>
             </p>
           </div>
@@ -129,8 +130,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <hr/>
-        <p className="text-center developers">Developed by@Gökay&Yiğit</p>
+        {/* <hr/>
+        <p className="text-center developers">Developed by@Gökay&Yiğit</p> */}
       </div>
     </footer>
   );

@@ -8,7 +8,7 @@ import Typed from 'react-typed';
 import { fadeIn, staggerContainer, slideIn } from '../../motion';
 const Hero = () => {
   const stringArray = ["Araç Sigortaları", "Konut ve İşyeri Sigortaları", "Sağlık Sigortaları",
-    "Sorumluluk Sigortaları", "Eöeklilik ve Hayat Sigortaları"]
+    "Sorumluluk Sigortaları", "Emeklilik ve Hayat Sigortaları","Diğer Branşlar","Detaylı bilgiler için aramayı unutmayın"]
   return (
     <section className='container-fluid hero-section'>
        <div className='container hero-container custom-width '>
@@ -34,7 +34,7 @@ const Hero = () => {
                  className='hero-sub-heading'>
                 İletişime geç aradığını bul
                 </motion.h3>
-                <p className='hero-p'>
+                <p className='hero-p text-start'>
                 <Typed strings={stringArray}
               typeSpeed={40}
               backSpeed={50}
