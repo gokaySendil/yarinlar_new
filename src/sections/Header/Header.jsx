@@ -28,26 +28,26 @@ const Header = () => {
         }
     };
     return (
-        <motion.nav class="navbar navbar-expand-md navbar-light "
+        <motion.nav className="navbar navbar-expand-md navbar-light "
         variants={variants}
         initial="hidden"
         animate="show"
         >
-            <div class="container custom-width d-flex justify-content-between">
-                <motion.a class="navbar-brand"  variants={item} href="#"><span className='colored'>Y</span>arınlar <span  className='colored'>S</span>igorta</motion.a>
-                <button class="navbar-toggler custom-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <div className="container custom-width d-flex justify-content-between">
+                <motion.a className="navbar-brand"  variants={item} href="#"><span className='colored'>Y</span>arınlar <span  className='colored'>S</span>igorta</motion.a>
+                <button className="navbar-toggler custom-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse desktop-flex" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <motion.li variants={item} class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#hakkımızda">Hakkımızda</a>
+                <div className="collapse navbar-collapse desktop-flex" id="navbarNav">
+                    <ul className="navbar-nav">
+                        <motion.li variants={item} className="nav-item">
+                            <a className="nav-link" aria-current="page" href="#hakkımızda">Hakkımızda</a>
                         </motion.li>
-                        <motion.li variants={item} class="nav-item">
-                            <a class="nav-link" href="#hizmetlerimiz">Hizmetlerimiz</a>
+                        <motion.li variants={item} className="nav-item">
+                            <a className="nav-link" href="#hizmetlerimiz">Hizmetlerimiz</a>
                         </motion.li>
-                        <motion.li variants={item} class="nav-item">
-                            <a class="nav-link" href="#iletisim">İletişim</a>
+                        <motion.li variants={item} className="nav-item">
+                            <a className="nav-link" href="#iletisim">İletişim</a>
                         </motion.li>
                     </ul>
                     
